@@ -10,10 +10,16 @@ p {
 
 /* Header */
 h1 {
-  background-color: color;
   font-family: "Helvetica", sans-serif;
   font-size: 70px;
   font-weight: bold;
+  color: white;
+}
+
+
+#list {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
   color: white;
 }
 
@@ -48,4 +54,9 @@ h3 {
   color: white;
   background-color: dimgray;
   text-align: left;
+}
+
+li {
+  display: inline;
+  color: white;
 }
